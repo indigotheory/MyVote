@@ -19,10 +19,16 @@ Blockchain technology!
  - Guided voting process
  
 ### Tracking
+ - Custom QR Code
  - Physical ballot history
  - Ballot delivery attestation
  - Mobile notifications 
 
+### QRCode
+ - SHA256 hash comprising PII + UUID
+ - 32bit BIP39 seed
+ - Derivation path = m/44'/60'/0'/0
+ 
 ### Online Voting 
  - Proof-Of-Votre
  - Places (vote data - PII) on chain
